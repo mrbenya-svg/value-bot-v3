@@ -43,7 +43,7 @@ ODDS_API_KEY = os.getenv("ODDS_API_KEY")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
-MAX_HOURS_AHEAD = 48
+MAX_HOURS_AHEAD = 24
 
 LEAGUES_MAP = {
     "soccer_austria_bundesliga": "Австрія: Бундесліга",
